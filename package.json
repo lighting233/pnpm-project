@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "cms-main": "pnpm run dev --filter cms-main"
+    "cms-main": "pnpm --filter @kiralight/cms-main dev",
+    "build:cms-main": "pnpm --filter @kiralight/cms-main build-only"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.12"
+  }
 }

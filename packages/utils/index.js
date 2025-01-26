@@ -1,4 +1,5 @@
 import StrongAxiosRequest from "./src/axios";
+console.log('test build')
 import {
     PageSearch,
     PageContent,
