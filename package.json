@@ -1,0 +1,11 @@
+{
+  "name": "pnpm-project",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "cms-main": "pnpm run dev --filter cms-main"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
